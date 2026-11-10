@@ -1,0 +1,52 @@
++	Dodawanie	Dodaje liczby
+*	Mnożenie	Mnoży liczby
+**	Potęgowanie	Podnosi liczbę do potęgi
+/	Dzielenie	Dzieli liczby (wynik typu float)
+//	Dzielenie całkowite	Zwraca wynik dzielenia zaokrąglony w dół
+%	Modulo	Zwraca resztę z dzielenia
+>	Większe niż	Sprawdza, czy lewa liczba jest większa od prawej
+<=	Mniejsze lub równe	Sprawdza, czy lewa liczba jest mniejsza lub równa prawej
+
+Pierwsza liczba to liczba operatorów a druga argumentów 
+3 * 2 + 1       	2	3	
+2	5 + 10 * 5      2	3	
+3	4 + 4 / 2 ** 2	3	4	
+4	4 % 3 % 2 % 1	  3	4
+5	1 + 2 % 3 ** 4 * 5	 4	5	
+6	True != False	  1	2	
+
+wynik z terminala 
+>>> 3 * 2 + 1
+7
+>>> 5 + 10 * 5
+55
+>>> 4 + 4 / 2 ** 2
+5.0
+>>> 4 % 3 % 2 % 1
+0
+>>> 1 + 2 % 3 ** 4 * 5
+11
+>>> True != False
+True
+
+Typy danych 
+>>> type(50)
+<class 'int'>
+
+>>> type(149.17)
+<class 'float'>
+
+>>> type(4 * 7)
+<class 'int'>
+
+>>> type(4.0 * 7)
+<class 'float'>
+
+>>> type("Uniwersytet Ekonomiczny w Krakowie")
+<class 'str'>
+
+>>> type(True)
+<class 'bool'>
+
+>>> type(2 > 5)
+<class 'bool'>
