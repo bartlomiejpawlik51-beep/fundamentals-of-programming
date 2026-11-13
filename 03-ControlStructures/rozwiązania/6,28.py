@@ -1,0 +1,10 @@
+# Zadanie 6.28: Pierwsze 20 wyrazów ciągu Fibonacciego
+
+a = 0
+b = 1
+
+for i in range(20):
+    print(a, end=" ")
+    next_number = a + b
+    a = b
+    b = next_number
